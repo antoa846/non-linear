@@ -1,0 +1,22 @@
+body{
+    font-family: "futura-pt", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    width: 4000px;
+    background-color: #F3EED9;
+}
+@font-face {
+  font-family: "tarotheque";
+  src: url("./fonts/tarotheque.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+h1{
+    font-family: "tarotheque";
+    color: #334172;
+    font-size: 4vw;
+}
+p{
+    width:2000px;
+    color: #1b1743;
+}
