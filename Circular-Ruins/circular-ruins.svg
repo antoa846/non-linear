@@ -1,11 +1,3 @@
-<!DOCTYPE html>
-<html>
-<Head>
-    <title>The Circular Ruins</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://use.typekit.net/eua2ygc.css">
-</Head>
-<body>
 <?xml version="1.0" encoding="UTF-8"?>
 <svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 976.19 948.52">
   <defs>
@@ -4011,5 +4003,3 @@
   <text class="cls-1" transform="translate(971.9 504.52) rotate(-85.75) scale(1.01 1)"><tspan x="0" y="0">r</tspan></text>
   <text class="cls-1" transform="translate(972.26 499.65) rotate(-86.28) scale(1.01 1)"><tspan x="0" y="0"> </tspan></text>
 </svg>
-</body>
-</html>

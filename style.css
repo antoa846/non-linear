@@ -16,6 +16,11 @@ h1{
     color: #334172;
     font-size: 4vw;
 }
+a{
+    width:2000px;
+    color: #1b1743;
+    text-decoration: none;
+}
 p{
     width:2000px;
     color: #1b1743;

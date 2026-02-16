@@ -1,3 +1,7 @@
 body{
     background-color: #CC7178;
 }
+svg{
+    width:105vw;
+    -ms-flex-item-align: center;
+}
