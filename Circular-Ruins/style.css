@@ -3,6 +3,46 @@ body {
   margin: 0px;
 }
 
+@font-face {
+  font-family: "tarotheque";
+  src: url("./fonts/tarotheque.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+#home-button {
+  background-color: #F3EED9;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index:20;
+}
+
+#home-button:hover {
+  background-color: #CC7178;
+  width:150px;
+  height:150px;
+  border: #F3EED9;
+  border-color: #F3EED9;
+  border-width: 5px;
+  border-style: solid;
+  box-shadow: 0px 10px 20px #334172;
+}
+
+a {
+  text-decoration: none;
+  font-family: "tarotheque";
+  color: #334172;
+  font-size: 30px;
+  text-align: center;
+}
+
 #container {
   position: relative;
   height: 100vh;
