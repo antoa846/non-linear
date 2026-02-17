@@ -3,7 +3,7 @@ body{
     font-family: "futura-pt", sans-serif;
     font-weight: 400;
     font-style: normal;
-    width: 2850px;
+    width: 2750px;
     background-color: #F3EED9;
     transition: background-color 0.6s ease;
 }
@@ -32,7 +32,7 @@ h1{
 a{
    opacity:0;
    text-decoration: none;
-   color:#030027;
+   color:#0b063e;
 }
 a:hover{
   opacity:1;
