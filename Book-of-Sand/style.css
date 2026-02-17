@@ -1,7 +1,8 @@
-body{
-    background-color: #DC9E82;
-    margin: 0px;
+body {
+  background-color: #DC9E82;
+  margin: 0px;
 }
+
 @font-face {
   font-family: "tarotheque";
   src: url("./fonts/tarotheque.ttf") format("truetype");
@@ -20,18 +21,18 @@ body{
   position: fixed;
   top: 20px;
   left: 20px;
-  z-index:20;
+  z-index: 20;
 }
 
 #home-button:hover {
   background-color: #DC9E82;
-  width:150px;
-  height:150px;
+  width: 150px;
+  height: 150px;
   border: #F3EED9;
   border-color: #F3EED9;
   border-width: 5px;
   border-style: solid;
-box-shadow: 0px 5px 10px #334172;
+  box-shadow: 0px 5px 10px #334172;
 }
 
 a {
