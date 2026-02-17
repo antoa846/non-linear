@@ -3,22 +3,20 @@ body{
 }
 #container{
   display: grid;
-  place-items: center; /* Centers both horizontally and vertically */
+  place-items: center;
 }
 img{
     width:120vw;
     animation-name: spin;
-    animation-duration: 40s; /* Duration for one full rotation */
-    animation-iteration-count: infinite; /* Makes it loop forever */
-    animation-timing-function: linear; /* Ensures a constant, smooth speed */
+    animation-duration: 40s; 
+    animation-iteration-count: infinite; 
+    animation-timing-function: linear; 
 }
 @keyframes spin {
   from {
     transform: rotate(0deg);
-    /* Using 'from' and 'to' is equivalent to 0% and 100% */
   }
   to {
     transform: rotate(360deg);
-    /* You can also use 'rotate(1turn)' for a full rotation */
   }
 }
