@@ -21,3 +21,18 @@ a{
     color: #1b1743;
     text-decoration: none;
 }
+.circular-ruins{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+  gap: 20px; /* Space between items */
+}
+.book-of-sand{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+  gap: 20px; /* Space between items */
+}
+.forking-paths{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+  gap: 20px; /* Space between items */
+}
