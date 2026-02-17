@@ -1,21 +1,30 @@
-body{
-    background-color: #CC7178;
+body {
+  background-color: #CC7178;
+  margin: 0px;
 }
-#container{
-  display: grid;
-  place-items: center;
+
+#container {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
 }
-img{
-    width:120vw;
-    animation-name: spin;
-    animation-duration: 40s; 
-    animation-iteration-count: infinite; 
-    animation-timing-function: linear; 
+
+img {
+  width: 100vw;
+  animation-name: spin;
+  animation-duration: 40s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  position: absolute;
+  transform: translate(-100%, -100%);
 }
+
 @keyframes spin {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
