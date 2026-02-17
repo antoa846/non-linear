@@ -37,6 +37,7 @@ body{
 a {
   text-decoration: none;
   font-family: "tarotheque";
+  line-height: 1.1;
   color: #334172;
   font-size: 30px;
   text-align: center;

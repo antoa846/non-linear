@@ -22,12 +22,16 @@ body:has(.forking-paths:hover) {
   font-weight: normal;
   font-style: normal;
 }
+
 h1{
     font-family: "tarotheque";
+    line-height: 1;
     color: #334172;
     font-size: 5.5vw;
     position:fixed;
-    transform: translate(950px, 500px)
+    transform: translate(950px, 500px);
+    z-index:10;
+
 }
 a{
    opacity:0;
