@@ -1,9 +1,20 @@
 body{
+  margin:10 auto;
     font-family: "futura-pt", sans-serif;
     font-weight: 400;
     font-style: normal;
-    width: 4000px;
+    width: 2520px;
     background-color: #F3EED9;
+    transition: background-color 0.6s ease;
+}
+body:has(.circular-ruins:hover) {
+    background-color: #CC7178;
+}
+body:has(.book-of-sand:hover) {
+    background-color: #DC9E82;
+}
+body:has(.forking-paths:hover) {
+    background-color: #588B8B;
 }
 @font-face {
   font-family: "tarotheque";
@@ -14,25 +25,26 @@ body{
 h1{
     font-family: "tarotheque";
     color: #334172;
-    font-size: 4vw;
+    font-size: 5.5vw;
+    position:fixed;
+    transform: translate(950px, 500px)
 }
 a{
-    width:2000px;
-    color: #1b1743;
-    text-decoration: none;
+   opacity:0;
+   text-decoration: none;
+   color:#030027;
 }
-.circular-ruins{
-  display: grid;
-  grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
-  gap: 20px; /* Space between items */
+a:hover{
+  opacity:1;
+  transition: color 0.6s ease;
 }
-.book-of-sand{
+
+.grid-container{
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
-  gap: 20px; /* Space between items */
-}
-.forking-paths{
-  display: grid;
-  grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
-  gap: 20px; /* Space between items */
+  gap: 30px; 
+  /* display: grid;
+  grid-template-areas: "overlay"; */
+  /* place-items: center; */
+  grid-template-columns: 500px 500px 500px 500px 500px; 
+  grid-template-rows: (20);
 }
