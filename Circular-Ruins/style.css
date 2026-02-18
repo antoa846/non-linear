@@ -70,3 +70,36 @@ img {
     transform: rotate(360deg);
   }
 }
+
+@media (max-width:1400px) {
+  #home-button {
+    width: 100px;
+    height: 100px;
+  }
+  #home-button:hover{
+    width: 90px;
+    height: 90px;
+    border-width: 5px;
+  }
+  a{
+    font-size: 20px;
+  }
+}
+
+@media (max-width:900px) {
+  #home-button {
+    width: 70px;
+    height: 70px;
+  }
+  #home-button:hover{
+    width: 60px;
+    height: 60px;
+    border-width: 5px;
+  }
+  a{
+    font-size: 13.67px;
+  }
+  img{
+    width: 200vw;
+  }
+}

@@ -1,21 +1,25 @@
-body{
-  margin:10 ;
-    font-family: "futura-pt", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    width: 2750px;
-    background-color: #F3EED9;
-    transition: background-color 0.6s ease;
+body {
+  margin: 10;
+  font-family: "futura-pt", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  width: 2750px;
+  background-color: #F3EED9;
+  transition: background-color 0.6s ease;
 }
+
 body:has(.circular-ruins:hover) {
-    background-color: #CC7178;
+  background-color: #CC7178;
 }
+
 body:has(.book-of-sand:hover) {
-    background-color: #DC9E82;
+  background-color: #DC9E82;
 }
+
 body:has(.forking-paths:hover) {
-    background-color: #588B8B;
+  background-color: #588B8B;
 }
+
 @font-face {
   font-family: "tarotheque";
   src: url("./fonts/tarotheque.ttf") format("truetype");
@@ -23,29 +27,46 @@ body:has(.forking-paths:hover) {
   font-style: normal;
 }
 
-h1{
-    font-family: "tarotheque";
-    line-height: 1;
-    color: #334172;
-    font-size: 5.5vw;
-    position:fixed;
-    transform: translate(950px, 500px);
-    z-index:10;
+h1 {
+  font-family: "tarotheque";
+  line-height: 1;
+  color: #334172;
+  font-size: 5.5vw;
+  position: fixed;
+  transform: translate(950px, 500px);
+  z-index: 10;
 
 }
-a{
-   opacity:0;
-   text-decoration: none;
-   color:#0b063e;
+
+a {
+  opacity: 0;
+  text-decoration: none;
+  color: #0b063e;
 }
-a:hover{
-  opacity:1;
+
+a:hover {
+  opacity: 1;
   transition: color 0.6s ease;
 }
 
-.grid-container{
+.grid-container {
   display: grid;
-  gap: 50px; 
-  grid-template-columns: 500px 500px 500px 500px 500px; 
+  gap: 50px;
+  grid-template-columns: 500px 500px 500px 500px 500px;
   grid-template-rows: (20);
+}
+
+@media (max-width:1400px) {
+  h1 {
+    position: fixed;
+    transform: translate(550px, 40px);
+  }
+}
+
+@media (max-width:900px) {
+  h1 {
+    position: fixed;
+    transform: translate(20px, 500px);
+    font-size: 45px;
+  }
 }

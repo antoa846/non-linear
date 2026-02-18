@@ -1,7 +1,8 @@
-body{
-    background-color: #588B8B;
-    margin: 0px;
+body {
+  background-color: #588B8B;
+  margin: 0px;
 }
+
 @font-face {
   font-family: "tarotheque";
   src: url("./fonts/tarotheque.ttf") format("truetype");
@@ -20,13 +21,13 @@ body{
   position: fixed;
   top: 20px;
   left: 20px;
-  z-index:20;
+  z-index: 20;
 }
 
 #home-button:hover {
   background-color: #588B8B;
-  width:150px;
-  height:150px;
+  width: 150px;
+  height: 150px;
   border: #F3EED9;
   border-color: #F3EED9;
   border-width: 5px;
@@ -42,6 +43,7 @@ a {
   font-size: 30px;
   text-align: center;
 }
+
 #container {
   position: relative;
   height: 100vh;
@@ -66,5 +68,38 @@ img {
 
   to {
     transform: rotate(360deg);
+  }
+}
+
+@media (max-width:1400px) {
+  #home-button {
+    width: 100px;
+    height: 100px;
+  }
+  #home-button:hover{
+    width: 90px;
+    height: 90px;
+    border-width: 5px;
+  }
+  a{
+    font-size: 20px;
+  }
+}
+
+@media (max-width:900px) {
+  #home-button {
+    width: 70px;
+    height: 70px;
+  }
+  #home-button:hover{
+    width: 60px;
+    height: 60px;
+    border-width: 5px;
+  }
+  a{
+    font-size: 13.67px;
+  }
+  img{
+    width: 200vw;
   }
 }
